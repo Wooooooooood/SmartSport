@@ -1,0 +1,35 @@
+# macOS
+.DS_Store
+
+# Xcode 用户状态
+xcuserdata/
+*.xcuserstate
+*.xcscmblueprint
+
+# 编译产物
+build/
+DerivedData/
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Swift Package Manager
+.swiftpm/
+Package.resolved
+
+# CocoaPods / Carthage
+Pods/
+Carthage/
+
+# 证书与签名（防止误提交）
+*.p12
+*.cer
+*.mobileprovision
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output
+
+# 环境变量
+.env
+.env.*
